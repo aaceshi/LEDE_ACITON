@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
+#sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
 
 echo '下载ServerChan'
 git clone https://github.com/tty228/luci-app-serverchan.git package/openwrt-packages/luci-app-serverchan
