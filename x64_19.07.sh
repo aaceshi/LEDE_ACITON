@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
+#sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
 sed -i '$a src-git opentopd https://github.com/sirpdboy/sirpdboy-package' feeds.conf.default
 
 echo '下载ServerChan'
