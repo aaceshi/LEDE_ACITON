@@ -12,8 +12,8 @@ git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/openwrt-pa
 #echo '下载eqos'
 #git clone https://github.com/garypang13/luci-app-eqos.git package/openwrt-packages/luci-app-eqos
 
+git clone https://github.com/jerrykuku/node-request.git package/openwrt-packages/node-request
 #echo '下载jd签到'
-#git clone https://github.com/jerrykuku/node-request.git package/openwrt-packages/node-request
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/openwrt-packages/luci-app-jd-dailybonus
 
 echo '下载系统高级设置'
