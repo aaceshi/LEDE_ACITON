@@ -23,7 +23,8 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/adguardh
 git clone https://github.com/superstarfly/OpenClash package/openclash
 git clone https://github.com/frainzy1477/luci-app-clash package/clash
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-git clone https://github.com/pexcn/openwrt-chinadns-ng package/luci-app-chinadns-ng
+git clone https://github.com/pexcn/openwrt-chinadns-ng package/chinadns-ng
+git clone https://github.com/izilzty/luci-app-chinadns-ng package/luci-app-chinadns-ng
 
 rm -rf feeds/packages/net/miniupnpd
 svn co https://github.com/coolsnowwolf/packages/trunk/net/miniupnpd feeds/packages/net/miniupnpd
