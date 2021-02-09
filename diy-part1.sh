@@ -18,12 +18,12 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 #
-git clone https://github.com/jefferymvp/luci-app-koolproxyR package/koolproxyR
+git clone https://github.com/exLuLu/luci-app-koolproxyR-2 package/koolproxyR
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/adguardhome
 git clone https://github.com/superstarfly/OpenClash package/openclash
 git clone https://github.com/frainzy1477/luci-app-clash package/clash
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-git clone https://github.com/pexcn/openwrt-chinadns-ng package/luci-app-chinadns-ng
+git clone https://github.com/OPENWRT-V/luci-app-chinadnsng package/luci-app-chinadns-ng
 
 rm -rf feeds/packages/net/miniupnpd
 svn co https://github.com/coolsnowwolf/packages/trunk/net/miniupnpd feeds/packages/net/miniupnpd
