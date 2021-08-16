@@ -19,6 +19,8 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 #
+git clone https://github.com/immortalwrt/openwrt-naiveproxy package/openwrt-naiveproxy
+#
 git clone https://github.com/exLuLu/luci-app-koolproxyR-2 package/koolproxyR
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/adguardhome
 git clone https://github.com/superstarfly/OpenClash package/openclash
